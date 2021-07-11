@@ -1,16 +1,16 @@
 #include <stdio.h>
-#include <limits.h>
-#include "GoatGeometry.h"
+#include <limits.h> /* for INT_MAX and LLONG_MAX */
+
 #include "void.h"
 
 void main()
 {
     /**** With arrays ****/
 
-    // void *arr2;
-    // vainitas(int, arr2, 1000000);
-    // for (int i = 0; i < 1000000; ++i) vaset(arr2, i, i);
-    // for (int i = 0; i < 1000000; ++i) printf("%i\n", vagetas(int, arr2, i));
+    void *arr2;
+    vainitas(int, arr2, 1000000);
+    for (int i = 0; i < 1000000; ++i) vaset(arr2, i, i);
+    for (int i = 0; i < 1000000; ++i) printf("%i\n", vagetas(int, arr2, i));
 
     /**** With strings arrays ****/
 
@@ -69,4 +69,5 @@ void main()
         }
         puts("");
     }
+
 }

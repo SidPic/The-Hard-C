@@ -18,6 +18,6 @@
 #define vaset(__ptr, __index, __value) vasetas( typeof(__value), __ptr, __index, __value )
 
 /* ! Float working incorrect ! */
-#define float double
+/* #define float double */
 
-#endif /*! THE_COOL_VOID_LIB_H */
+#endif
